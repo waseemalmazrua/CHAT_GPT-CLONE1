@@ -1,4 +1,4 @@
-const API_KEY = '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'
+const API_KEY = "API_KEY"
 const submitButton= document.querySelector('#submit')
 const outPutElement = document.querySelector('#output')
 const inputElement= document.querySelector('input')
@@ -57,5 +57,6 @@ function clearInput(){
   inputElement.value = ''
 
 }
+
 
 buttonElement.addEventListener('click', clearInput)
